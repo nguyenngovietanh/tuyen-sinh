@@ -279,6 +279,7 @@ nav .navbar .links li:hover > i,
   font-weight: 700;
   font-size: 30px;
   color: #222221;
+  text-transform: uppercase;
 }
 .main-container {
   background: #f7f5ee;

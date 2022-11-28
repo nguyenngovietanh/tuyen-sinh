@@ -1,0 +1,125 @@
+.main-section-container {
+    background: #f7f5ee;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.main-section-container h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #222221;
+    text-transform: uppercase;
+  }
+.document-content {
+    display: flex;
+    justify-content: center;
+}
+.document-content iframe {
+    width: 95%;
+    height: 800px;
+    margin-top: 20px;
+}
+.document-btn {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.back-btn, .download-btn {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+    background: #DA291C;
+    color: #ffffff;
+    transition: all 0.35s;
+}
+.back-btn a, .download-btn a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.back-btn:hover, .download-btn:hover {
+    background: #DF6258;
+}
+.back-btn a:hover, .download-btn a:hover {
+    color: #ffffff;
+}
+
+@media only screen and (max-width:1280px) {
+    .main-section-container h2 {
+        width: 58%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .main-section-container h2 {
+        width: 72%;
+    }
+}
+@media only screen and (max-width:920px) {
+    .main-section-container h2 {
+        font-size: 26px;
+    }
+    .document-content iframe {
+        margin-top: 0;
+        height: 600px;
+    }
+    .document-btn {
+        margin-top: 30px;
+    }
+    .back-btn, .download-btn {
+        padding: 8px 35px;
+    }
+}
+@media only screen and (max-width:820px) {
+    .main-section-container h2 {
+        font-size: 24px;
+    }
+    .document-content iframe {
+        height: 490px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .main-section-container h2 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:640px) {
+    .main-section-container h2 {
+        font-size: 20px;
+    }
+    .document-btn {
+        margin-top: 20px;
+    }
+    .back-btn, .download-btn {
+        padding: 6px 30px;
+    }
+    .document-content iframe {
+        height: 500px;
+    }
+}
+@media only screen and (max-width:540px){
+    .main-section-container h2 {
+        width: 75%;
+    }
+    .main-section-container h2 {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:480px){
+    .main-section-container h2 {
+        font-size: 17px;
+    }
+    .back-btn a, .download-btn a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: all 0.3s;
+        font-size: 14px;
+    }
+}
